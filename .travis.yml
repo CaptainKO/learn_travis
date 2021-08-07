@@ -1,6 +1,12 @@
+os: linux
+arch:
+  - arm64
+  - ppc64le
+  - s390x
 language: node_js
 node_js:
   - "node"
 env:
   - MY_VAR=EverythingIsAwesome
-  - NODE_ENV=TEST
+  - NODE_ENV=TES
+
