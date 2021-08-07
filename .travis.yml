@@ -1,6 +1,6 @@
 os: linux
 arch:
-  - arm64
+  - arm64 # for free
 language: node_js
 node_js:
   - "node"
